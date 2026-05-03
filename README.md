@@ -16,7 +16,8 @@ your OS:
 | OS | File | Notes |
 |----|------|-------|
 | **macOS** (Apple Silicon) | `JMJ.Qyrena-VERSION-arm64.dmg` | Signed + notarised. Open the DMG, drag the app to Applications. |
-| **Windows** (any architecture) | `JMJ.Qyrena-VERSION-portable.exe` | 32-bit portable. Runs on x64, ARM64 (via emulation), and older 32-bit installs. No install, no admin rights, just run it. |
+| **Windows** (any architecture - recommended default) | `JMJ.Qyrena-VERSION-portable.exe` | 32-bit portable. Runs on x64, ARM64 (via emulation), and older 32-bit installs. No install, no admin rights, just run it. |
+| **Windows** (native ARM64, faster on Surface Pro X / Snapdragon) | `JMJ.Qyrena-VERSION-arm64-portable.exe` | Native ARM64 portable. Smaller (95 MB) and skips Microsoft's emulation layer. Use this only if the universal portable feels sluggish on your ARM Windows machine. |
 
 ## First-launch warnings
 
