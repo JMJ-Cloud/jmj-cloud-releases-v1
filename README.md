@@ -1,6 +1,6 @@
-# JMJ Cloud Query - public releases (test channel)
+# JMJ Qyrena - public releases (test channel)
 
-This repository hosts the downloadable installers for **JMJ Cloud Query**, a
+This repository hosts the downloadable installers for **JMJ Qyrena**, a
 desktop SQL workshop for Oracle Fusion Cloud. Source code is private; only the
 built artifacts and release notes live here.
 
@@ -10,24 +10,23 @@ built artifacts and release notes live here.
 
 ## Download
 
-See the [latest release](../../releases/latest). Pick the right file for your
-machine:
+See the [latest release](../../releases/latest). Two files; pick the one for
+your OS:
 
-| OS | Recommended | Why |
-|----|-------------|-----|
-| Windows 11 (Intel/AMD x64) | `JMJ Cloud Query-VERSION-x64-portable.exe` | No install, just run |
-| Windows 11 (ARM, e.g. Surface, Snapdragon, Parallels on Apple Silicon) | `JMJ Cloud Query-VERSION-arm64-portable.exe` | No install, just run |
-| Windows - prefer a real installer with Start Menu entry | `*-x64-setup.exe` or `*-arm64-setup.exe` | NSIS installer |
-
-The `-portable.exe` files are the easiest path - one file, no install, no
-admin rights needed. Delete the file when you're done.
+| OS | File | Notes |
+|----|------|-------|
+| **macOS** (Apple Silicon) | `JMJ.Qyrena-VERSION-arm64.dmg` | Signed + notarised. Open the DMG, drag the app to Applications. |
+| **Windows** (any architecture) | `JMJ.Qyrena-VERSION-portable.exe` | 32-bit portable. Runs on x64, ARM64 (via emulation), and older 32-bit installs. No install, no admin rights, just run it. |
 
 ## First-launch warnings
 
-On Windows 11, SmartScreen will warn the first time you run an unsigned
-executable. Click **More info** -> **Run anyway**. The warning won't reappear
-on subsequent launches. (Code-signing certificates are in flight; once they
-land, SmartScreen will accept the app silently.)
+**macOS**: the DMG is signed with a Developer ID Application certificate and
+notarised by Apple, so it opens cleanly with no Gatekeeper warning.
+
+**Windows**: SmartScreen will warn the first time you run an unsigned
+executable. Click **More info** -> **Run anyway**. The warning won't
+reappear on subsequent launches. (A Windows code-signing cert is in flight;
+once it lands, SmartScreen will accept the app silently.)
 
 ## Trial limits
 
