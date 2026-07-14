@@ -18,12 +18,12 @@ They are separate apps. Install either, or both.
 
 ## Downloads
 
-Latest versions: **Qyrena 0.4.2** and **Relay 0.2.3**.
+Latest versions: **Qyrena 0.4.2** and **Relay 0.2.4**.
 
 | App | macOS (Apple Silicon) | Windows (x64 and ARM64) |
 |-----|----------------------|-------------------------|
 | **JMJ Qyrena** | [Download the .dmg](https://github.com/JMJ-Cloud/jmj-cloud-releases-v1/releases/download/v0.4.2/JMJ.Qyrena-0.4.2-macOS-arm64.dmg) | [Download the .exe](https://github.com/JMJ-Cloud/jmj-cloud-releases-v1/releases/download/v0.4.2/JMJ.Qyrena-0.4.2-Windows-portable.exe) |
-| **JMJ Relay** | [Download the .dmg](https://github.com/JMJ-Cloud/jmj-cloud-releases-v1/releases/download/relay-v0.2.3/JMJ.Relay-0.2.3-macOS-arm64.dmg) | [Download the .exe](https://github.com/JMJ-Cloud/jmj-cloud-releases-v1/releases/download/relay-v0.2.3/JMJ.Relay-0.2.3-Windows-portable.exe) |
+| **JMJ Relay** | [Download the .dmg](https://github.com/JMJ-Cloud/jmj-cloud-releases-v1/releases/download/relay-v0.2.4/JMJ.Relay-0.2.4-macOS-arm64.dmg) | [Download the .exe](https://github.com/JMJ-Cloud/jmj-cloud-releases-v1/releases/download/relay-v0.2.4/JMJ.Relay-0.2.4-Windows-portable.exe) |
 
 - **macOS**: open the .dmg and drag the app to Applications. The builds are
   signed with a JMJ Cloud Developer ID certificate and notarised by Apple, so
@@ -117,9 +117,9 @@ support@jmjcloud.com.
   to the LLM provider you configured, using your own API key. Do not paste
   sensitive data values into AI prompts.
 
-The full EULA, privacy policy and refund policy are in the app. Qyrena asks you
-to accept them on first launch and keeps them under **Help -> Legal Documents**.
-Relay has them under **Settings -> Legal**.
+Both apps ask you to accept the EULA, privacy policy and refund policy on first
+launch. You can reread them any time: in Qyrena under **Help -> Legal
+Documents**, in Relay under **Settings -> Legal**.
 
 ## First-launch warnings
 
