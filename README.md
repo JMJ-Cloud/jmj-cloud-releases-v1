@@ -18,12 +18,12 @@ They are separate apps. Install either, or both.
 
 ## Downloads
 
-Latest versions: **Compass 0.6.0** and **Relay 0.2.7**.
+Latest versions: **Compass 0.6.0** and **Relay 0.2.9**.
 
 | App | macOS (Apple Silicon) | Windows (x64 and ARM64) |
 |-----|----------------------|-------------------------|
 | **JMJ Compass** | [Download the .dmg](https://github.com/JMJ-Cloud/jmj-cloud-releases-v1/releases/download/v0.6.0/JMJ.Compass-0.6.0-macOS-arm64.dmg) | [Download the .exe](https://github.com/JMJ-Cloud/jmj-cloud-releases-v1/releases/download/v0.6.0/JMJ.Compass-0.6.0-Windows-portable.exe) |
-| **JMJ Relay** | [Download the .dmg](https://github.com/JMJ-Cloud/jmj-cloud-releases-v1/releases/download/relay-v0.2.7/JMJ.Relay-0.2.7-macOS-arm64.dmg) | [Download the .exe](https://github.com/JMJ-Cloud/jmj-cloud-releases-v1/releases/download/relay-v0.2.7/JMJ.Relay-0.2.7-Windows-portable.exe) |
+| **JMJ Relay** | [Download the .dmg](https://github.com/JMJ-Cloud/jmj-cloud-releases-v1/releases/download/relay-v0.2.9/JMJ.Relay-0.2.9-macOS-arm64.dmg) | [Download the .exe](https://github.com/JMJ-Cloud/jmj-cloud-releases-v1/releases/download/relay-v0.2.9/JMJ.Relay-0.2.9-Windows-portable.exe) |
 
 - **macOS**: open the .dmg and drag the app to Applications. The builds are
   signed with a JMJ Cloud Developer ID certificate and notarised by Apple, so
