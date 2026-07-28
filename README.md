@@ -5,7 +5,7 @@ Fusion. Source code is private; only the built binaries live here.
 
 Two apps, both free to use until **2 October 2026** (see [Licensing](#licensing)):
 
-- **[JMJ Qyrena](#jmj-qyrena)** - write and run SQL against a Fusion pod, and get the results out.
+- **[JMJ Compass](#jmj-compass)** - write and run SQL against a Fusion pod, and get the results out.
 - **[JMJ Relay](#jmj-relay)** - browse the BI catalog and move reports between Fusion environments.
 
 They are separate apps. Install either, or both.
@@ -18,11 +18,11 @@ They are separate apps. Install either, or both.
 
 ## Downloads
 
-Latest versions: **Qyrena 0.4.2** and **Relay 0.2.7**.
+Latest versions: **Compass 0.6.0** and **Relay 0.2.7**.
 
 | App | macOS (Apple Silicon) | Windows (x64 and ARM64) |
 |-----|----------------------|-------------------------|
-| **JMJ Qyrena** | [Download the .dmg](https://github.com/JMJ-Cloud/jmj-cloud-releases-v1/releases/download/v0.4.2/JMJ.Qyrena-0.4.2-macOS-arm64.dmg) | [Download the .exe](https://github.com/JMJ-Cloud/jmj-cloud-releases-v1/releases/download/v0.4.2/JMJ.Qyrena-0.4.2-Windows-portable.exe) |
+| **JMJ Compass** | [Download the .dmg](https://github.com/JMJ-Cloud/jmj-cloud-releases-v1/releases/download/v0.6.0/JMJ.Compass-0.6.0-macOS-arm64.dmg) | [Download the .exe](https://github.com/JMJ-Cloud/jmj-cloud-releases-v1/releases/download/v0.6.0/JMJ.Compass-0.6.0-Windows-portable.exe) |
 | **JMJ Relay** | [Download the .dmg](https://github.com/JMJ-Cloud/jmj-cloud-releases-v1/releases/download/relay-v0.2.7/JMJ.Relay-0.2.7-macOS-arm64.dmg) | [Download the .exe](https://github.com/JMJ-Cloud/jmj-cloud-releases-v1/releases/download/relay-v0.2.7/JMJ.Relay-0.2.7-Windows-portable.exe) |
 
 - **macOS**: open the .dmg and drag the app to Applications. The builds are
@@ -36,11 +36,11 @@ Full release notes are on the [releases page](../../releases).
 
 ---
 
-## JMJ Qyrena
+## JMJ Compass
 
 **Write SQL, run it against Oracle Fusion, and get the answer out.**
 
-Fusion makes ad-hoc querying harder than it should be. Qyrena is a SQL
+Fusion makes ad-hoc querying harder than it should be. Compass is a SQL
 workshop that talks to your pod through BI Publisher, so you can ask a question
 and get an answer without building a report first.
 
@@ -101,7 +101,7 @@ From that date, an unlicensed install falls back to free-tier limits:
 
 | App | Free tier from 2 October 2026 |
 |-----|-------------------------------|
-| **JMJ Qyrena** | 200 rows per query, 5 successful Deploys |
+| **JMJ Compass** | 200 rows per query, 5 successful Deploys |
 | **JMJ Relay** | 3 codepack Imports |
 
 A license key removes the limits, and **one key covers both apps**. Paste it
@@ -113,12 +113,12 @@ support@jmjcloud.com.
 - Your Fusion sign-in and session token stay on your machine.
 - Your SQL and your catalog content go to your own Fusion pod and nowhere else.
 - JMJ Cloud does not receive your data, your queries, or your credentials.
-- If you turn on the optional AI assistant in Qyrena, your prompts go directly
+- If you turn on the optional AI assistant in Compass, your prompts go directly
   to the LLM provider you configured, using your own API key. Do not paste
   sensitive data values into AI prompts.
 
 Both apps ask you to accept the EULA, privacy policy and refund policy on first
-launch. You can reread them any time: in Qyrena under **Help -> Legal
+launch. You can reread them any time: in Compass under **Help -> Legal
 Documents**, in Relay under **Settings -> Legal**.
 
 ## First-launch warnings
