@@ -18,11 +18,11 @@ They are separate apps. Install either, or both.
 
 ## Downloads
 
-Latest versions: **Compass 0.6.6** (14 September 2026, Windows; macOS 0.6.5 until the 0.6.6 build lands) and **Relay 0.2.15**.
+Latest versions: **Compass 0.6.6** (14 September 2026) and **Relay 0.2.15**.
 
 | App | macOS (Apple Silicon) | Windows installer (x64 and ARM64) | Windows portable (x64 and ARM64) |
 |-----|----------------------|-----------------------------------|----------------------------------|
-| **JMJ Compass** | [Download the .dmg (0.6.5)](https://github.com/JMJ-Cloud/jmj-cloud-releases-v1/releases/download/v0.6.5/JMJ.Compass-0.6.5-macOS-arm64.dmg) - 0.6.6 for macOS follows shortly | [Download the Setup .exe](https://github.com/JMJ-Cloud/jmj-cloud-releases-v1/releases/download/v0.6.6/JMJ.Compass-0.6.6-Windows-Setup.exe) | [Download the portable .exe](https://github.com/JMJ-Cloud/jmj-cloud-releases-v1/releases/download/v0.6.6/JMJ.Compass-0.6.6-Windows-portable.exe) |
+| **JMJ Compass** | [Download the .dmg](https://github.com/JMJ-Cloud/jmj-cloud-releases-v1/releases/download/v0.6.6/JMJ.Compass-0.6.6-macOS-arm64.dmg) | [Download the Setup .exe](https://github.com/JMJ-Cloud/jmj-cloud-releases-v1/releases/download/v0.6.6/JMJ.Compass-0.6.6-Windows-Setup.exe) | [Download the portable .exe](https://github.com/JMJ-Cloud/jmj-cloud-releases-v1/releases/download/v0.6.6/JMJ.Compass-0.6.6-Windows-portable.exe) |
 | **JMJ Relay** | [Download the .dmg](https://github.com/JMJ-Cloud/jmj-cloud-releases-v1/releases/download/relay-v0.2.15/JMJ.Relay-0.2.15-macOS-arm64.dmg) | Portable only for now | [Download the portable .exe](https://github.com/JMJ-Cloud/jmj-cloud-releases-v1/releases/download/relay-v0.2.15/JMJ.Relay-0.2.15-Windows-portable.exe) |
 
 - **macOS**: open the .dmg and drag the app to Applications. The builds are
