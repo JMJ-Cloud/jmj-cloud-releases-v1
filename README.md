@@ -18,19 +18,25 @@ They are separate apps. Install either, or both.
 
 ## Downloads
 
-Latest versions: **Compass 0.6.2** and **Relay 0.2.13**.
+Latest versions: **Compass 0.6.6** (14 September 2026, Windows; macOS 0.6.5 until the 0.6.6 build lands) and **Relay 0.2.15**.
 
-| App | macOS (Apple Silicon) | Windows (x64 and ARM64) |
-|-----|----------------------|-------------------------|
-| **JMJ Compass** | [Download the .dmg](https://github.com/JMJ-Cloud/jmj-cloud-releases-v1/releases/download/v0.6.2/JMJ.Compass-0.6.2-macOS-arm64.dmg) | [Download the .exe](https://github.com/JMJ-Cloud/jmj-cloud-releases-v1/releases/download/v0.6.2/JMJ.Compass-0.6.2-Windows-portable.exe) |
-| **JMJ Relay** | [Download the .dmg](https://github.com/JMJ-Cloud/jmj-cloud-releases-v1/releases/download/relay-v0.2.13/JMJ.Relay-0.2.13-macOS-arm64.dmg) | [Download the .exe](https://github.com/JMJ-Cloud/jmj-cloud-releases-v1/releases/download/relay-v0.2.13/JMJ.Relay-0.2.13-Windows-portable.exe) |
+| App | macOS (Apple Silicon) | Windows installer (x64 and ARM64) | Windows portable (x64 and ARM64) |
+|-----|----------------------|-----------------------------------|----------------------------------|
+| **JMJ Compass** | [Download the .dmg (0.6.5)](https://github.com/JMJ-Cloud/jmj-cloud-releases-v1/releases/download/v0.6.5/JMJ.Compass-0.6.5-macOS-arm64.dmg) - 0.6.6 for macOS follows shortly | [Download the Setup .exe](https://github.com/JMJ-Cloud/jmj-cloud-releases-v1/releases/download/v0.6.6/JMJ.Compass-0.6.6-Windows-Setup.exe) | [Download the portable .exe](https://github.com/JMJ-Cloud/jmj-cloud-releases-v1/releases/download/v0.6.6/JMJ.Compass-0.6.6-Windows-portable.exe) |
+| **JMJ Relay** | [Download the .dmg](https://github.com/JMJ-Cloud/jmj-cloud-releases-v1/releases/download/relay-v0.2.15/JMJ.Relay-0.2.15-macOS-arm64.dmg) | Portable only for now | [Download the portable .exe](https://github.com/JMJ-Cloud/jmj-cloud-releases-v1/releases/download/relay-v0.2.15/JMJ.Relay-0.2.15-Windows-portable.exe) |
 
 - **macOS**: open the .dmg and drag the app to Applications. The builds are
   signed with a JMJ Cloud Developer ID certificate and notarised by Apple, so
   they open with no Gatekeeper warning. Apple Silicon only (M1 and later).
-- **Windows**: one portable .exe. No install, no admin rights, nothing to
-  uninstall - just run it. The single file carries both x64 and ARM64, so it
-  runs natively either way.
+- **Windows installer** (recommended): run the Setup .exe. It installs for
+  your own user by default, under your local AppData, so no admin rights are
+  needed; if you have them you can choose Program Files for all users
+  instead. Start menu and desktop shortcuts are created, and it uninstalls
+  from Apps and Features like anything else. It starts in a second or two.
+- **Windows portable**: one .exe, no install. It unpacks itself into a
+  temporary folder every time it is launched, so expect a pause of several
+  seconds before the app appears. Use it where installing is not an option.
+- Both Windows files carry x64 and ARM64 and run natively either way.
 
 Full release notes are on the [releases page](../../releases).
 
@@ -92,6 +98,12 @@ password, and the session token stays on your machine.
 Your Fusion user needs the **BI Author** and **BI Publisher Data Model
 Developer** roles, or a custom role that wraps them.
 
+Compass runs your SQL through a small helper report it creates on the pod the
+first time you connect, under `/Custom/JMJ Compass`. Writing under `/Custom`
+needs the **BI Administrator** role; without it, Compass puts the helper report
+in your own My Folders instead. If neither works, the app tells you which role
+is missing.
+
 ## Licensing
 
 **Both apps are free and fully unlimited until 2 October 2026.** No key is
@@ -124,10 +136,10 @@ Documents**, in Relay under **Settings -> Legal**.
 ## First-launch warnings
 
 - **macOS**: none. The builds are notarised by Apple.
-- **Windows**: SmartScreen warns the first time you run the .exe, because it is
-  not yet signed with a Windows code-signing certificate. Click **More info**,
-  then **Run anyway**. It will not ask again. A Windows certificate is on the
-  list.
+- **Windows**: SmartScreen warns the first time you run either .exe (the
+  installer or the portable), because they are not yet signed with a Windows
+  code-signing certificate. Click **More info**, then **Run anyway**. It will
+  not ask again. A Windows certificate is on the list.
 
 ## Contact
 
