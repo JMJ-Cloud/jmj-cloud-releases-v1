@@ -3,10 +3,10 @@
 This repository hosts the installers for the JMJ Cloud desktop apps for Oracle
 Fusion. Source code is private; only the built binaries live here.
 
-Two apps, both free to use until **2 October 2026** (see [Licensing](#licensing)):
+Two apps (see [Licensing](#licensing)):
 
-- **[JMJ Compass](#jmj-compass)** - write and run SQL against a Fusion pod, and get the results out.
-- **[JMJ Relay](#jmj-relay)** - browse the BI catalog and move reports between Fusion environments.
+- **[JMJ Compass](#jmj-compass)** - write and run SQL against a Fusion pod, and get the results out. **Free trial until 10 December 2026.**
+- **[JMJ Relay](#jmj-relay)** - browse the BI catalog and move reports between Fusion environments. Free to use until 2 October 2026.
 
 They are separate apps. Install either, or both.
 
@@ -18,11 +18,11 @@ They are separate apps. Install either, or both.
 
 ## Downloads
 
-Latest versions: **Compass 0.6.7** (14 September 2026) and **Relay 0.2.15**.
+Latest versions: **Compass 0.6.9** (17 September 2026, free trial until 10 December 2026) and **Relay 0.2.15**.
 
 | App | macOS (Apple Silicon) | Windows installer (x64 and ARM64) | Windows portable (x64 and ARM64) |
 |-----|----------------------|-----------------------------------|----------------------------------|
-| **JMJ Compass** | [Download the .dmg](https://github.com/JMJ-Cloud/jmj-cloud-releases-v1/releases/download/v0.6.7/JMJ.Compass-0.6.7-macOS-arm64.dmg) | [Download the Setup .exe](https://github.com/JMJ-Cloud/jmj-cloud-releases-v1/releases/download/v0.6.7/JMJ.Compass-0.6.7-Windows-Setup.exe) | [Download the portable .exe](https://github.com/JMJ-Cloud/jmj-cloud-releases-v1/releases/download/v0.6.7/JMJ.Compass-0.6.7-Windows-portable.exe) |
+| **JMJ Compass** | [Download the .dmg](https://github.com/JMJ-Cloud/jmj-cloud-releases-v1/releases/download/v0.6.9/JMJ.Compass-0.6.9-macOS-arm64.dmg) | [Download the Setup .exe](https://github.com/JMJ-Cloud/jmj-cloud-releases-v1/releases/download/v0.6.9/JMJ.Compass-0.6.9-Windows-Setup.exe) | [Download the portable .exe](https://github.com/JMJ-Cloud/jmj-cloud-releases-v1/releases/download/v0.6.9/JMJ.Compass-0.6.9-Windows-portable.exe) |
 | **JMJ Relay** | [Download the .dmg](https://github.com/JMJ-Cloud/jmj-cloud-releases-v1/releases/download/relay-v0.2.15/JMJ.Relay-0.2.15-macOS-arm64.dmg) | Portable only for now | [Download the portable .exe](https://github.com/JMJ-Cloud/jmj-cloud-releases-v1/releases/download/relay-v0.2.15/JMJ.Relay-0.2.15-Windows-portable.exe) |
 
 - **macOS**: open the .dmg and drag the app to Applications. The builds are
@@ -65,6 +65,12 @@ and get an answer without building a report first.
 For finance and IT people who know SQL and are tired of waiting on a report
 request.
 
+**This version is a free trial.** Every feature is switched on, there is no
+license key to enter and nothing to sign up for, and it runs until the end of
+**10 December 2026**. After that it stops connecting to Fusion and points you to
+[JMJ Cloud](https://www.jmjcloud.com/contact) about a license. Your saved SQL and
+settings stay on your computer.
+
 ## JMJ Relay
 
 **Move BI content between Fusion environments without hand-carrying files.**
@@ -99,32 +105,33 @@ Your Fusion user needs the **BI Author** and **BI Publisher Data Model
 Developer** roles, or a custom role that wraps them.
 
 Compass runs your SQL through a small helper report it creates on the pod the
-first time you connect, under `/Custom/JMJ Compass`. Writing under `/Custom`
-needs the **BI Administrator** role; without it, Compass puts the helper report
-in your own My Folders instead. If neither works, the app tells you which role
-is missing.
+first time you connect, in your own My Folders (`~/JMJ Compass`), which needs
+no extra privilege. If a pod will not allow that, Compass puts it under
+`/Custom/JMJ Compass` instead, which needs the **BI Administrator** role. If
+neither works, the app tells you which role is missing.
 
 ## Licensing
 
-**Both apps are free and fully unlimited until 2 October 2026.** No key is
-needed before then.
+**JMJ Compass 0.6.9 is a free trial until 10 December 2026.** It has full
+functionality, needs no license key, and there is nothing to sign up for. It
+stops working at the end of 10 December 2026, judged by the real date rather
+than your computer's clock. To keep using Compass after that,
+[contact JMJ Cloud](https://www.jmjcloud.com/contact) about a license.
 
-From that date, an unlicensed install falls back to free-tier limits:
-
-| App | Free tier from 2 October 2026 |
-|-----|-------------------------------|
-| **JMJ Compass** | 200 rows per query, 5 successful Deploys |
-| **JMJ Relay** | 3 codepack Imports |
-
-A license key removes the limits, and **one key covers both apps**. Paste it
-under **Settings -> License** in either app. To get a key, contact
-support@jmjcloud.com.
+**JMJ Relay is free and fully unlimited until 2 October 2026.** No key is
+needed before then. From that date an unlicensed install is limited to 3
+codepack Imports; a license key removes the limit. Paste it under
+**Settings -> License**. To get a key, contact support@jmjcloud.com.
 
 ## Where your data goes
 
 - Your Fusion sign-in and session token stay on your machine.
 - Your SQL and your catalog content go to your own Fusion pod and nowhere else.
 - JMJ Cloud does not receive your data, your queries, or your credentials.
+- The Compass trial reads today's date from Fusion and from public web servers
+  (jmjcloud.com, cloudflare.com and google.com), so the end date is judged by
+  the real date. That is an ordinary web request and sends nothing about you or
+  your data.
 - If you turn on the optional AI assistant in Compass, your prompts go directly
   to the LLM provider you configured, using your own API key. Do not paste
   sensitive data values into AI prompts.
@@ -143,5 +150,5 @@ Documents**, in Relay under **Settings -> Legal**.
 
 ## Contact
 
-- [jmjcloud.com](https://www.jmjcloud.com)
+- [jmjcloud.com](https://www.jmjcloud.com) - [contact us](https://www.jmjcloud.com/contact)
 - support@jmjcloud.com
