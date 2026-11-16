@@ -6,7 +6,7 @@ Fusion. Source code is private; only the built binaries live here.
 Two apps (see [Licensing](#licensing)):
 
 - **[JMJ Compass](#jmj-compass)** - write and run SQL against a Fusion pod, and get the results out. **Free trial until 31 March 2027.**
-- **[JMJ Relay](#jmj-relay)** - browse the BI catalog and move reports between Fusion environments. Free to use until 2 October 2026.
+- **[JMJ Relay](#jmj-relay)** - browse the BI catalog and move reports between Fusion environments. Free to use until 31 March 2027.
 
 They are separate apps. Install either, or both.
 
@@ -18,12 +18,12 @@ They are separate apps. Install either, or both.
 
 ## Downloads
 
-Latest versions: **Compass 0.6.10** (15 November 2026, free trial until 31 March 2027) and **Relay 0.2.15**.
+Latest versions: **Compass 0.6.10** (15 November 2026, free trial until 31 March 2027) and **Relay 0.2.16** (15 November 2026, free until 31 March 2027).
 
 | App | macOS (Apple Silicon) | Windows installer (x64 and ARM64) | Windows portable (x64 and ARM64) |
 |-----|----------------------|-----------------------------------|----------------------------------|
 | **JMJ Compass** | [Download the .dmg](https://github.com/JMJ-Cloud/jmj-cloud-releases-v1/releases/download/v0.6.10/JMJ.Compass-0.6.10-macOS-arm64.dmg) | [Download the Setup .exe](https://github.com/JMJ-Cloud/jmj-cloud-releases-v1/releases/download/v0.6.10/JMJ.Compass-0.6.10-Windows-Setup.exe) | [Download the portable .exe](https://github.com/JMJ-Cloud/jmj-cloud-releases-v1/releases/download/v0.6.10/JMJ.Compass-0.6.10-Windows-portable.exe) |
-| **JMJ Relay** | [Download the .dmg](https://github.com/JMJ-Cloud/jmj-cloud-releases-v1/releases/download/relay-v0.2.15/JMJ.Relay-0.2.15-macOS-arm64.dmg) | Portable only for now | [Download the portable .exe](https://github.com/JMJ-Cloud/jmj-cloud-releases-v1/releases/download/relay-v0.2.15/JMJ.Relay-0.2.15-Windows-portable.exe) |
+| **JMJ Relay** | [Download the .dmg](https://github.com/JMJ-Cloud/jmj-cloud-releases-v1/releases/download/relay-v0.2.16/JMJ.Relay-0.2.16-macOS-arm64.dmg) | Portable only for now | [Download the portable .exe](https://github.com/JMJ-Cloud/jmj-cloud-releases-v1/releases/download/relay-v0.2.16/JMJ.Relay-0.2.16-Windows-portable.exe) |
 
 - **macOS**: open the .dmg and drag the app to Applications. The builds are
   signed with a JMJ Cloud Developer ID certificate and notarised by Apple, so
@@ -118,8 +118,8 @@ stops working at the end of 31 March 2027, judged by the real date rather
 than your computer's clock. To keep using Compass after that,
 [contact JMJ Cloud](https://www.jmjcloud.com/contact) about a license.
 
-**JMJ Relay is free and fully unlimited until 2 October 2026.** No key is
-needed before then. From that date an unlicensed install is limited to 3
+**JMJ Relay 0.2.16 is free and fully unlimited until the end of 31 March 2027.** No key is
+needed before then. From 1 April 2027 an unlicensed install is limited to 3
 codepack Imports; a license key removes the limit. Paste it under
 **Settings -> License**. To get a key, contact support@jmjcloud.com.
 
